@@ -1,0 +1,209 @@
+/* accent color #2196F3;
+   logo-color #000000;
+   primary text color #757575;
+   title color #212121;
+   primary white color #FFFFFF;
+   footer contacts color: rgba(255, 255, 255, 0.6);
+   first-bg-color #2F303A;
+   second-bg-color:  #F5F4FA;
+*/
+
+ :root {
+     --title-color: #212121;
+     --primary-text-color: #757575;
+     --accent-color: #2196F3;
+     --primary-white-color: #FFFFFF;
+     --logo-color: #000000;
+     --footer-contacts-color: rgba(255, 255, 255, 0.6);
+
+     --first-bg-color: #2F303A;
+     --second-bg-color:  #F5F4FA;
+
+     --font-family: Roboto, sans-serif;
+ }
+
+ body {
+     color: var(--primary-text-color);
+
+     background-color: var(--primary-white-color);
+     
+     font-family: var(--font-family);
+     font-size: 14px;
+ }
+
+ .list {
+     list-style: none;
+ }
+
+ /* logo header and logo footer*/
+
+ .logo {
+     color: #000000;
+
+     font-family: Raleway, sans-serif;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.19;
+
+     text-decoration: none;
+ }
+
+ .logo-web {
+     color: var(--accent-color);
+}
+
+ .footer .logo{
+    color: var(--primary-white-color);
+  }
+  .site-nav .site-nav-link {
+    color: var(--title-color);
+
+     font-weight: 500;
+     line-height: 1.14;
+
+     text-decoration: none;
+  }
+
+  .site-nav-list .site-nav-link:hover,
+  .site-nav-list .site-nav-link:focus {
+    color: var(--accent-color);    
+ }
+
+  .site-nav-list .current {
+    color: var(--accent-color);
+ }
+
+ /* Contacts header  */
+
+ .contacts-list .contacts-link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+
+  text-decoration: none;
+ }
+
+ .contacts-list .contacts-link:hover,
+ .contacts-list .contacts-link:focus  {
+  color: var(--accent-color);
+ }
+
+ /* Hero */
+ .hero {
+  background-color: var(--first-bg-color) ;
+}
+.hero .hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+.hero .hero-button{
+  color: var(--primary-white-color);
+
+  background-color: var(--accent-color);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* section features */
+   .features-list .features-title {
+    color: var(--title-color);
+
+    font-weight: 700;
+    line-height: 1.14;
+  }
+  .features-list .features-text {
+    line-height: 1.71;  
+  } 
+
+  /* section about us */
+  .section-title {
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  } 
+
+  /* section our team */
+
+   .our-team {
+    background-color:var( --second-bg-color);
+  }
+  
+  .our-team-list .our-team-title {
+    color: var(--title-color);
+    font-weight: 500;
+  }
+
+  .our-team-list .our-team-title ,
+  .our-team-list .our-team-title  {
+    font-size: 16px;
+    line-height: 1.19;
+  } 
+ 
+  /* footer */
+  .footer {
+      background-color: var(--first-bg-color);
+  }
+  
+  .address .address-text {
+    color: var(--primary-white-color);
+
+    font-style: normal;
+    line-height: 1.71;
+  } 
+
+  .contact-info .contact-info-link {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-style: normal;
+    line-height: 1.71;
+
+    text-decoration: none;
+  }
+  
+  /* Portfolio */
+
+  .portfolio-button-list .portfolio-button {
+    color: var(--title-color); 
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+  }
+
+  .portfolio-button-list .portfolio-button:hover,
+  .portfolio-button-list .portfolio-button:focus {
+      background-color: var(--accent-color);
+      color: var(--primary-white-color);
+  }
+  
+ .portfolio-card-item .portfolio-card {
+      text-decoration: none;
+  } 
+ .portfolio-card .portfolio-card-title {
+    color: var(--title-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+  }
+
+ .portfolio-card .portfolio-card-text{
+    color: var(--primary-text-color);
+
+    font-size: 16px;
+    line-height: 1.87;
+}  
