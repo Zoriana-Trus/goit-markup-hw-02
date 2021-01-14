@@ -126,7 +126,7 @@
 /* section features */
    .features-list .features-title {
     color: var(--title-color);
-
+    font-size: var(--main-font-size);
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -189,18 +189,16 @@
   .portfolio-button-list .portfolio-button {
     color: var(--title-color); 
     background-color: var(--second-bg-color);
-
-    font-family: inherit;
+    
+    font-family: var(--main-font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: var( --main-letter-spacing);
+    text-align: center;
+  
  }
     
-  
-  
-
   .portfolio-button-list .portfolio-button:hover,
   .portfolio-button-list .portfolio-button:focus {
       background-color: var(--accent-color);
