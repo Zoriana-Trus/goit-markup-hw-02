@@ -19,7 +19,9 @@
      --first-bg-color: #2F303A;
      --second-bg-color:  #F5F4FA;
 
-     --font-family: Roboto, sans-serif;
+     --main-font-family: Roboto, sans-serif;
+     --main-font-size: 14px;
+     --main-letter-spacing: 0.03em;
  }
 
  body {
@@ -27,8 +29,9 @@
 
      background-color: var(--primary-white-color);
      
-     font-family: var(--font-family);
-     font-size: 14px;
+     font-family: var(--main-font-family);
+     font-size: var(--main-font-size);
+     letter-spacing: var( --main-letter-spacing);
  }
 
  .list {
@@ -44,7 +47,7 @@
      font-weight: 700;
      font-size: 26px;
      line-height: 1.19;
-
+  
      text-decoration: none;
  }
 
@@ -60,6 +63,7 @@
 
      font-weight: 500;
      line-height: 1.14;
+     letter-spacing: 0.02em;
 
      text-decoration: none;
   }
@@ -80,7 +84,8 @@
 
   font-weight: 500;
   line-height: 1.14;
-
+  letter-spacing: 0.02em;
+  
   text-decoration: none;
  }
 
@@ -95,10 +100,13 @@
 }
 .hero .hero-title {
   color: var(--primary-white-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero .hero-button{
@@ -110,6 +118,9 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+
 }
 
 /* section features */
@@ -118,7 +129,9 @@
 
     font-weight: 700;
     line-height: 1.14;
+    text-transform: uppercase;
   }
+
   .features-list .features-text {
     line-height: 1.71;  
   } 
@@ -145,10 +158,11 @@
   }
 
   .our-team-list .our-team-title ,
-  .our-team-list .our-team-title  {
+  .our-team-list .our-team-text {
     font-size: 16px;
     line-height: 1.19;
-  } 
+  }
+    
  
   /* footer */
   .footer {
@@ -163,11 +177,10 @@
   } 
 
   .contact-info .contact-info-link {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-contacts-color);
 
     font-style: normal;
     line-height: 1.71;
-
     text-decoration: none;
   }
   
@@ -175,13 +188,14 @@
 
   .portfolio-button-list .portfolio-button {
     color: var(--title-color); 
+    background-color: var(--second-bg-color);
 
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-
     text-align: center;
+    letter-spacing: 0.03em;
   }
 
   .portfolio-button-list .portfolio-button:hover,
@@ -199,6 +213,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
   }
 
  .portfolio-card .portfolio-card-text{
